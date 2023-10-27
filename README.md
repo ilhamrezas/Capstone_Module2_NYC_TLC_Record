@@ -1,5 +1,6 @@
 # Capstone_Module2_NYC_TLC_Record
 Data analisis tentang dataset NYC-TLC-Record
+
 # Latar Belakang
 Komisi Taksi dan Limusin Kota New York (TLC), yang dibentuk pada tahun 1971, adalah badan yang bertanggung jawab atas perizinan dan pengaturan taksi Medallion (Kuning) Kota New York, kendaraan sewaan (warna berbasis komunitas, mobil hitam, dan limusin mewah) , van komuter, dan kendaraan paratransit. Dewan Komisi terdiri dari sembilan anggota, delapan di antaranya merupakan Komisaris tidak digaji. Ketua/Komisaris yang digaji memimpin rapat komisi publik yang dijadwalkan secara rutin dan merupakan kepala lembaga, yang memiliki staf sekitar 600 karyawan TLC.
 
@@ -8,7 +9,7 @@ Lebih dari 200.000 pemegang lisensi TLC menyelesaikan sekitar 1.000.000 perjalan
 
 Sumber dapat diakses pada link berikut [klik link](https://www.nyc.gov/site/tlc/about/about-tlc.page).
 
-Pernyataan Masalah
+# Pernyataan Masalah
 
 Terdapat 2 VendorID penyedia layanan, yaitu
 
@@ -24,12 +25,17 @@ Pada uraian dibawah akan dibandingkan performa dari 2 penyedia layanan tersebut,
     
     c. Total_amount
 
-Secara garis besar :
+## Secara garis besar :
 
     * VendorID : 1 (Teknologi Seluler Kreatif, LLC) memiliki presentase sebanyak 13.7% atau sebanyak 9302 data, dan VendorID : 2 (VeriFone Inc) memiliki presentase jauh lebih banyak yaitu 86.3% atau sebanyak 58602 data. Yang jika dijumlahkan akan menjadi 67904 (total data keseluruhan)
     * Pada masing - masing VendorID terdapat 22 kolom
 
-Vendor : 1 (Teknologi Seluler Kreatif, LLC)
+# Kesimpulan
+
+### Vendor : 1 (Teknologi Seluler Kreatif, LLC)
+
+Insight
+
 Analisis Data Untuk VendorID : 1 (Teknologi Seluler Kreatif, LLC)
 
     * Informasi diatas adalah yang tertera pada VendorId : 1 (Teknologi Seluler Kreatif, LLC)
@@ -46,7 +52,7 @@ Analisis Data Untuk VendorID : 1 (Teknologi Seluler Kreatif, LLC)
     * Didapat hasil bahwa pukul 15.00 adalah jam dengan jumlah total jarak tempuh paling banyak, yaitu sebanyak 1787.5 mil (Tertinggi di VendorID 1)
     * Sedangkan pukul 05.00 adalah jam dengan jumlah total jarak tempuh paling sedikit, yaitu hanya sebanyak 128.5 mil (Terendah di VendorID 1)
 
-Vendor : 2 (VeriFone Inc)
+### Vendor : 2 (VeriFone Inc)
 
 Insight
 
